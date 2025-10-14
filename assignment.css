@@ -1,0 +1,15 @@
+.card {
+    width: 200px;
+    background-color: rgb(253, 228, 219);
+    padding: 20px;
+    border: 2px solid coral;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.card div {
+    font-size: 80px;
+}
+
+/* Add your CSS styles below this line */
+

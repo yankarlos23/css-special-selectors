@@ -1,0 +1,31 @@
+
+
+li::before {
+    content:"☑️";
+    margin-right: 4px;
+}
+
+li:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+li:active {
+    background-color: lightgreen;
+}
+
+li:hover::after {
+    content:"Pick me!!";
+    margin-left: 8px;
+    background-color: red;
+    color:white;
+}
+
+li:active::before {
+    content:"✅";
+}
+
+li:active::after {
+    content:"Yayyy!!";
+}
+
