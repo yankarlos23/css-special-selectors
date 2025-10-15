@@ -8,3 +8,22 @@ li:active {
     background-color: blueviolet;
     font-style: italic;
 }
+
+li::before {
+    content: "🥶";
+}
+
+li:hover::after {
+    content: "Vote for me!!";
+    margin-left: 12px;
+    font-weight: bold;
+    color: gray;
+}
+
+li::active::before {
+    content: "😶‍🌫️";
+}
+
+ul {
+    list-style: none;
+}
